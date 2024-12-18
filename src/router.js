@@ -4,9 +4,9 @@ import About from './pages/appAbout.vue';
 import Users from './pages/appUsers.vue';
 
 const routes = [
-  { path: '/', component: Home },
   { path: '/about', component: About },
-  { path: '/users', component: Users },
+  { path: '/', component: Home },
+  { path: '/users', component: Users }
 ];
 
 const router = createRouter({
