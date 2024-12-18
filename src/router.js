@@ -4,8 +4,8 @@ import About from './pages/appAbout.vue';
 import Users from './pages/appUsers.vue';
 
 const routes = [
-  { path: '/about', component: About },
   { path: '/', component: Home },
+  { path: '/about', component: About },
   { path: '/users', component: Users }
 ];
 
