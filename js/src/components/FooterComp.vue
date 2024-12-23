@@ -1,11 +1,12 @@
 <template>
     <footer>
-      <p>© 2024 My Vue SPA</p>
+      <p>© 2024 Houcem BM</p>
     </footer>
   </template>
   
   <style>
   footer {
+    height: 40px;
     background-color: #333;
     color: white;
     text-align: center;
